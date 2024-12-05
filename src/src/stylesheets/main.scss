@@ -110,6 +110,11 @@ img {
     font-size: 1.2rem;
 }
 
+.galbtn:hover {
+    color: $white;
+    background-color: $black;
+}
+
 //FOOTER SECTION
 footer {
     background-color: $black;
@@ -223,6 +228,17 @@ footer {
 .messagebutton {
     font-size: 1.3rem;
 }
+
+.messagebutton:hover {
+   color: $white;
+   background-color: $black;
+}
+
+#liveAlertPlaceholder{
+  color: black;
+}
+
+
 
 @media (min-width:992px) {
     .paint {
